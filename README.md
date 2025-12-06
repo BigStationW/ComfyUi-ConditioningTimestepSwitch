@@ -21,3 +21,5 @@ Navigate to the **ComfyUI/custom_nodes** folder and run the following command in
 ## 🛠️ Usage
 
 <img src="https://github.com/user-attachments/assets/a305dd07-ef65-4040-b581-7c6bc9fd3b8b" width="700" />
+
+A workflow can be found [here](https://github.com/BigStationW/ComfyUi-ConditioningTimestepSwitch/blob/main/example_Z-image_turbo.json).
