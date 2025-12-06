@@ -4,7 +4,7 @@ class ConditioningTimestepSwitch:
         return {
             "required": {
                 "conditioning_1": ("CONDITIONING", {"tooltip": "Conditioning active BEFORE the threshold (Start)"}),
-                "threshold": ("FLOAT", {"default": 0.5, "min": 0.0, "max": 1.0, "step": 0.01, "tooltip": "The switching point (0.0 to 1.0)"})
+                "threshold": ("FLOAT", {"default": 0.1, "min": 0.0, "max": 1.0, "step": 0.01, "tooltip": "The switching point (0.0 to 1.0)"})
             },
             "optional": {
                 "conditioning_2": ("CONDITIONING", {"tooltip": "Conditioning active AFTER the threshold (End). If not provided, nothing happens after the threshold."}),
@@ -78,5 +78,6 @@ NODE_CLASS_MAPPINGS = {
 NODE_DISPLAY_NAME_MAPPINGS = {
     "ConditioningTimestepSwitch": "Conditioning Timestep Switch"
 }
+
 
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
